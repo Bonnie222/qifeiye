@@ -1,0 +1,138 @@
+
+@media only screen and (max-width:992px ) {
+	.ff2{display: none;}	
+	.cbl{display: none;}
+}
+/*footer*/
+.footer .f1 .container{
+	padding-top: 40px;
+	overflow: hidden;
+}
+.footer .ff1{
+	line-height: 30px;
+	padding-left: 0;
+}
+.ff1 .ff1-1{
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.ff1 .ff1-2{
+	font-size: 13px;
+	line-height: 24px;
+	padding-bottom: 20px;
+}
+.ff1 .ff1-3{
+	font-size: 15px;
+	font-weight:bold;
+	line-height: 24px;
+	padding-bottom: 20px;
+}
+.ff1 .ff1-4{
+	font-size: 16px;
+	font-weight: bold;
+}
+.ff1-4 .col-lg-3,.ff1-4 .col-md-3,
+.ff1-4 .col-sm-3,.ff1-4 .col-xs-3{
+	padding-left:10px;
+	padding-right: 10px;
+}
+.ff1 .ff1-4 img{
+	width: 100%;
+}
+.footer .ff2{
+	line-height: 30px;
+	padding-left: 0;
+}
+.ff2 a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 13px;
+}
+.ff2 a:hover{
+	color: #79b7ff;
+}
+.ff2 .ff2-1{
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.f2 .container{
+	text-align: center;
+	padding-bottom: 25px;
+}
+.f2 .container p:nth-child(2){
+	font-size: 13px;
+}
+.f2 .container p:nth-child(4){
+	font-size: 12px;
+}
+
+
+/*侧边图标栏*/
+
+.cbl{
+	position: fixed;
+	right: 0;
+	top:40%;
+	height: 54px;
+	z-index: 99;
+}
+.cbl li{
+    list-style:none;   
+}
+
+.cbl .icon{
+	background-color: #31353d;
+	height: 54px;
+	width: 54px;
+    transition: width 1s;
+    -moz-transition: width 1s;	/* Firefox 4 */
+	-webkit-transition: width 1s;	/* Safari 和 Chrome */
+	-o-transition: width 1s;	/* Opera */
+    overflow: hidden;
+    word-break: keep-all;
+    white-space:nowrap;	  
+    float: right;
+}
+.cbl .icon:hover{
+	background-color: #61b0ff;
+	width: 130px;
+}
+.cbl .d1{
+	background-color: #61b0ff;
+}
+.cbl .d2:hover{
+	width: 158px;
+}
+.cbl .d4:hover{
+	width: 54px;
+}
+.cbl span.title{
+	font-size: 16px;	
+	padding-left: 5px;
+	color: #FFFFFF;	
+	position: relative;
+	top:-20px
+}
+.cbl .icon i{
+	background-image: url(../img/pic.png);
+	height: 30px;
+	width: 30px;
+	margin: 12px;
+	display: inline-block;
+}
+.cbl .i1{
+	background-position: 30px -40px;
+}
+.cbl .i2{
+	background-position: 30px 0px;
+}
+.cbl .i3{
+	background-position: 30px -184px;
+}
+.cbl .i4{
+	background-position: 30px -80px;
+}
