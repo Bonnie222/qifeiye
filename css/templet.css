@@ -1,0 +1,253 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html,body{
+	font-family: "微软雅黑";	
+	position: relative;
+}
+body{
+	overflow-x: hidden;
+}
+li{
+	list-style: none;
+	}
+	
+@media only screen and (max-width: 992px) {
+	   .b1 hr{width: 85%;}
+	   .b2 .b2-1{margin-left: 40px;}
+	 
+}
+.main1 .b1{
+	margin: 0 auto;
+	text-align: center;
+	width: 95%;
+	padding-top: 10px;
+	line-height: 25px;
+}
+.main1{
+	background:#f2f2f2;
+}
+
+.b1 .b1-1 img{	
+	margin: 0 auto;
+}
+.b1 .b1-2{
+	color:#666666;
+	font-size:16px ;
+	padding-bottom: 10px;
+}
+.b1 hr{
+	height: 2px;
+	border-width: 1px;
+	border-color: #CCCCCC;
+}
+.main1 .b2{
+	margin: 0 auto;
+	text-align: left;
+	width: 95%;
+	line-height: 25px;
+	padding-bottom: 180px;	
+}
+.b2 hr{
+	border-top:1px solid #ccc;
+	margin-top:2px;
+	margin-bottom:5px;
+	margin-right:-15px;
+	
+}
+.b2 .b2-1{
+	padding-left: 10px;
+	border-right: 1px solid #CCCCCC;
+	display: table-cell;
+	vertical-align: top;
+}
+.b2 .b2-1-1{
+	position: relative;
+	width: 130px;
+}
+.b2-1-1 input{
+	width: 125px; 
+	font-size: 16px;
+}
+.b2-1-1 a{
+	position:absolute;
+	top:0px;
+	right:12px;
+	margin:0px;
+	height:37px;
+	line-height:37px;
+	color:#8d9095;
+	text-decoration: none;
+}
+.b2-1 .bul1{
+	padding: 10px 0;
+	line-height: 30px;
+}
+.b2-1 .bul1 span{
+	font-size:18px;
+	text-shadow:1px 1px 1px #ccc;
+	text-decoration: none;
+	color: #555555;
+	cursor: pointer;
+}
+.b2-1 .bul2 span:hover,
+.b2 .bul1 span:hover,
+.b2 .bul2 a:hover{
+	color: #0088c2;
+}
+.b2 .active{
+	color: #0088c2 !important;
+}
+.b2-1 .bul2{
+	padding: 5px 0;
+	padding-bottom: 10px;
+	line-height: 24px;
+}
+.b2-1 .bul2 span{
+	color: #555555;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+.b2-1 .bul2-a{
+	display: none;
+	padding-left: 20px;
+}
+.b2-1 .bul2-a a{
+	color: #555555;
+	text-decoration: none;
+	font-size: 13px;
+	cursor: pointer;
+}
+.b2 .b2-2{
+	/*background: greenyellow;*/
+}
+.b2 .b2-2 p{
+	color:#555;
+	text-shadow: 1px 1px 1px #ccc;
+	padding-bottom:5px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.b2 .b2-2 a{
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.b2 .b2-2 img{
+	box-shadow: 0 0 2px 0 rgba(50, 50, 50, 0.26);
+}
+
+.b2 .b2-2 a i{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: all .6s ease;	
+}
+.b2 .b2-2 a:hover i{
+	background-color: #FFFFFF;
+    opacity: 0.8;
+}
+.b2 .b2-2-1 .view{
+	display: none;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	margin-top: -17px;
+	overflow: hidden;
+	white-space: nowrap;
+    text-align: center;
+}
+.b2 .b2-2-1 .view span{
+	display: inline-block;
+	color: #fff;
+    background: #3e3e3e;
+    padding: 5px 21px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.main2 .main2-1{
+	padding-top: 30px;
+	padding-bottom: 20px;	
+}
+.main2-1 span{
+	font-size: 36px;
+	font-family: 华文细黑;
+}
+.main2-1 p{
+	font-family: 华文细黑;
+	font-size: 16px;
+	color: #868686;
+}  
+.main2-1 a{
+	color: #0088c2;
+	text-decoration: none;
+}
+.main2-2{
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+.main2-2 div{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+.main2-2 div:nth-child(1){
+	margin-right: 10%;
+}
+.main2-2 span{
+	display: inline-block;
+	font-weight: 700; 
+	color: #333333; 
+	font-family: 华文细黑;
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+.main2-2 i{
+	font-weight: 700; 
+	color: #333333; 
+	font-family: 华文细黑;
+	background-color:#F2F2F2;
+}
+.main2-2 p{
+	color: #808080;
+	font-family: 华文细黑;
+	font-size: 16px;
+
+}
+.main2-3{
+	padding-top: 20px;
+}
+.main2-3-1,.main2-3-2{
+	margin: 0;
+	padding: 0;
+}
+.main2-3 li{
+	line-height: 36px;
+}
+.main2-3 li a{
+	color: #0088c2;
+	font-size: 16px;
+	text-decoration: none;
+	cursor: pointer;
+}

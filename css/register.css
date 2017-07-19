@@ -1,0 +1,174 @@
+ahtml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html,body{
+	font-family: "微软雅黑";
+	background-color: #383838;
+/*	height: 100%;
+	overflow: hidden;*/
+	position: relative;
+}
+body{
+	overflow-x: hidden;
+	
+}
+@media only screen and (min-width:993px ) {
+	.close {display: block;}
+}
+@media only screen and (max-width:992px ) {
+	.close {display: none;}
+	.main{position: absolute;top: 0;transform: top .3s;left: 10%;right: 10%;}
+}
+@media only screen and (max-width:770px ) {
+	.c3 {width: 90%;}
+}
+@media only screen and (min-width:771px ) {
+	.c3 {width: 348px;}
+}
+nav {
+	background: #383838 !important;
+}
+/*缩小导航*/
+.close{
+	padding-top: 20px;
+	padding-bottom: 85px;
+	text-shadow:none;
+  	filter: alpha(opacity=100);
+  	opacity: 1;
+  	transition: all .6s ease;	
+}
+.close i{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-image: url(../img/close1.png);
+}
+.close i:hover{
+	background-image: url(../img/close2.png);
+}
+
+
+.c2{
+	margin-top: 0;
+	padding: 0px 3px 41px 0px;
+	text-align: center;
+	opacity: 0.8;
+}
+.c2 img{
+	width: 159px;
+	height: 51px;
+	margin-bottom: 10px;
+	color: #8d9095;
+}
+.c2 p{
+	font-size: 12px;
+	letter-spacing: 6px;
+	line-height: 1.8;
+	color: #FFFFFF;
+}
+.c3{
+	margin: 0 auto;
+	line-height:35px;
+}
+.c3 input{
+	background: #383838;
+	border-color: #5B5B5B;
+}
+.c3 .form-control:focus {
+  border-color: #FFFFFF;
+  outline: 0;
+}
+.c3 label{
+	color: #AFAFAF;
+	font-size: 15px;
+	cursor: pointer;
+}
+.c3 .checkbox{
+	border-top:1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 20px;
+	padding: 10px 0;
+	color:#808080 !important;
+}
+.c3 .checkbox a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.c3 input[type="checkbox"]{
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	margin-top:3px;
+}
+.c3 .c3-1 .btn{
+	width: 100%;
+	margin-top: 10px;
+}
+.c3 .btn1{
+	background: #e4e4e4;
+	font-size: 16px;
+	border-top: 1px solid #e4e4e4;
+}
+.c3 .btn2{
+	background: #383838;
+	border-top: 1px solid #e4e4e4;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.c3 .c3-2-2{
+	color: #999;
+	float: left;
+	margin-top: 5px;
+}
+.c3 .c3-2-1{
+	margin-top: 10px;
+	float: left;
+}
+.c3 .c3-2-1 a{
+	display: inline-block;
+	height: 24px;
+	width: 24px;	
+}
+.c3 .c3-2-1 span{
+	height: 24px;
+	width: 24px;
+	display: inline-block;
+	background-image:url(../img/social_icon_24x24.png);
+}
+.c3 .c3-2-1 .s1{
+	background-position: -48px -48px;
+}
+.c3 .c3-2-1 .s2{
+	background-position:  0 -48px;
+}
+.c3 .c3-2-1 .s3{
+	background-position:  -240px -48px;
+}
+.c3 .c3-2-1 .s4{
+	background-position:  -96px -48px;
+}
+.c3 .pp{
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 12px;
+	border: 1px solid #FFFFFF;
+	border-radius: 3px;
+	transition: all .2s linear;
+	padding: 0 7px;
+	line-height: 24px;
+	margin-top: 10px;
+}
